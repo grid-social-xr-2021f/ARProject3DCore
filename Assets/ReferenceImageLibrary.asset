@@ -35,3 +35,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: tastetest_final
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5137219641941619607
+      m_GuidHigh: 3602733888020961672
+    m_SerializedTextureGuid:
+      m_GuidLow: 4099545813911543613
+      m_GuidHigh: 9288852015941137851
+    m_Size: {x: 0.075, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: dinnerwithneighors_final
+    m_Texture: {fileID: 0}
