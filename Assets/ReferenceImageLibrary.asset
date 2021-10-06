@@ -21,27 +21,37 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 802858941954955299
       m_GuidHigh: 17326194804896543721
-    m_Size: {x: 0.075, y: 0.1}
+    m_Size: {x: 0.1, y: 0.13333334}
     m_SpecifySize: 1
-    m_Name: heatofthekitchen_final
-    m_Texture: {fileID: 0}
+    m_Name: Cube
+    m_Texture: {fileID: 2800000, guid: 37f8982353f40b24e9b3137f600273f0, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5358520168080962709
       m_GuidHigh: 10091233987447772077
     m_SerializedTextureGuid:
       m_GuidLow: 6459502646387892709
       m_GuidHigh: 7758416198781084793
-    m_Size: {x: 0.075, y: 0.1}
+    m_Size: {x: 0.1, y: 0.13333334}
     m_SpecifySize: 1
-    m_Name: tastetest_final
-    m_Texture: {fileID: 0}
+    m_Name: dalek_red
+    m_Texture: {fileID: 2800000, guid: d7a561e5c36e59a479a4fb4b6d6eab6b, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5137219641941619607
       m_GuidHigh: 3602733888020961672
     m_SerializedTextureGuid:
       m_GuidLow: 4099545813911543613
       m_GuidHigh: 9288852015941137851
-    m_Size: {x: 0.075, y: 0.1}
+    m_Size: {x: 1, y: 1.3333334}
     m_SpecifySize: 1
-    m_Name: dinnerwithneighors_final
-    m_Texture: {fileID: 0}
+    m_Name: coffee_cup
+    m_Texture: {fileID: 2800000, guid: 8aa31f3d833238e4bbb557adb1a1e880, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5585510096295930821
+      m_GuidHigh: 16592710890606445237
+    m_SerializedTextureGuid:
+      m_GuidLow: 4004952899477492219
+      m_GuidHigh: 7340764432640257881
+    m_Size: {x: 0.1, y: 0.13333334}
+    m_SpecifySize: 1
+    m_Name: TrackedCube
+    m_Texture: {fileID: 2800000, guid: 6386d1fb73713794592f58c35ba2df65, type: 3}
