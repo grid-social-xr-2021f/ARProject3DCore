@@ -490,7 +490,6 @@ GameObject:
   - component: {fileID: 1360117254}
   - component: {fileID: 1360117260}
   - component: {fileID: 1360117259}
-  - component: {fileID: 1360117258}
   - component: {fileID: 1360117257}
   - component: {fileID: 1360117256}
   m_Layer: 0
@@ -537,10 +536,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1360117253}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef1c2818bba399f4283f2a2067a0fa55, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a241233d4de28c4a8af6c0b92e8b3f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Prefab: {fileID: 1362899771367802, guid: 66a9f1d6f090a0e4ebec99713ed8be64, type: 3}
+  _prefabToPlace: {fileID: 4358138059666371762, guid: 9acca7ac43b118e4ba0a9236f332a4f9, type: 3}
+  Log: {fileID: 0}
 --- !u!114 &1360117257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -554,19 +554,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AnchorPrefab: {fileID: 0}
---- !u!114 &1360117258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360117253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 0}
 --- !u!114 &1360117259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,7 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 1568414836858200, guid: c0a0ede6b172868409ff6b1c02d4166c, type: 3}
+  m_PlanePrefab: {fileID: 9015476169961625561, guid: 7876a86f139d7cf48bdcaf09e3ee82b6, type: 3}
   m_DetectionMode: -1
 --- !u!114 &1360117260
 MonoBehaviour:
@@ -593,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ab0e80cee9cc1d44928bfe488dd1e2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PointCloudPrefab: {fileID: 1854016325464908, guid: ca78e0f8940c3864a89c63c14c4ea4c6, type: 3}
+  m_PointCloudPrefab: {fileID: 5259117212086564636, guid: 1adf9ca9cf7b9e24292b763cf41ce313, type: 3}
 --- !u!1 &1719417125
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,7 +619,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: World 0,0,0
+  m_text: World 0,0,12
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
