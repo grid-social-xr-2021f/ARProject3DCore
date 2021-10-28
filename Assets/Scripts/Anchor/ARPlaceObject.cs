@@ -55,7 +55,7 @@ public class ARPlaceObject : MonoBehaviour
 
     ARAnchor CreateAnchor(in ARRaycastHit hit)
     {
-        ARAnchor anchor;
+        ARAnchor anchor = null;
 
         // ... here, we'll place the plane anchoring code!
 
@@ -70,7 +70,7 @@ public class ARPlaceObject : MonoBehaviour
                 anchor = _anchorManager.AttachAnchor(plane, hit.pose);
                 _anchorManager.anchorPrefab = oldPrefab;
                 Debug.Log($"Created anchor attachment for plane (id: {anchor.nativePtr}).");
-                //Log.text = $"Created anchor attachment for plane (id: {anchor.nativePtr}).";
+                Log.text = $"Created anchor attachment for plane (id: {anchor.nativePtr}).";
                 return anchor;
             }
         }
@@ -78,13 +78,13 @@ public class ARPlaceObject : MonoBehaviour
         // Otherwise, just create a regular anchor at the hit pose
 
         // Note: the anchor can be anywhere in the scene hierarchy
-        var instantiatedObject = Instantiate(_prefabToPlace, hit.pose.position, hit.pose.rotation);
+        var gameObject = Instantiate(_prefabToPlace, hit.pose.position, hit.pose.rotation);
 
         // Make sure the new GameObject has an ARAnchor component
-        anchor = instantiatedObject.GetComponent<ARAnchor>();
+        anchor = gameObject.GetComponent<ARAnchor>();
         if (anchor == null)
         {
-            anchor = instantiatedObject.AddComponent<ARAnchor>();
+            anchor = gameObject.AddComponent<ARAnchor>();
         }
         Debug.Log($"Created regular anchor (id: {anchor.nativePtr}).");
         //Log.text = $"Created regular anchor (id: {anchor.nativePtr}).";
